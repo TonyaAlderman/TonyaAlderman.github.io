@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
         
     <meta name="description" content="Tonya Alderman Portfolio">
     <meta name="author" content="Tonya Alderman">
@@ -28,13 +29,34 @@
                 <div id="content">
                     <h1>Tonya Alderman</h1>
                     <br>
-                    <p id="h1p">Junior Web Developer</p>
+                    <p id="h1p">Junior Web Developer
+                        <br>
+                        <img id="pic" class="img-fluid mt-2" src="images/portfoliopic.jpg">
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
 <section id="middle" class="d-xxl-flex-row p-5 text-center ">
+    <div>
+        <button type="button" class="btn btn-lg btn-outline-light" data-bs-toggle="modal" data-bs-target="#modal-3">Intro</button>
+        <div class="modal" id="modal-3" tabindex="-1">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title">Grab a glass and sit a spell</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal">&times;</button>
+                    </div>
+                    <p id="modp">I am a country mama who is branching out into a passion I have wanted to pursue for many
+                        years. I grew up as computers were growing up, and love learning new things on and with
+                        them. As a mom of 6, I am <strong>highly organized</strong>, <strong>self-driven and motivated</strong>, and have very strong communication skills. I am currently enrolled in the BCS Commonwealth Coders program and working toward making WebDev my permanent career. I love learning new things, and take it upon myself to expand my knowledge on any topic that
+                        grabs my interest from horses to black holes. Thanks for stopping by!</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div>
         <button type="button" class="btn btn-lg btn-outline-light" data-bs-toggle="modal" data-bs-target="#modal-2">Projects</button>
@@ -61,25 +83,6 @@
     </div>
 
     <div>
-        <button type="button" class="btn btn-lg btn-outline-light" data-bs-toggle="modal" data-bs-target="#modal-3">About Me</button>
-        <div class="modal" id="modal-3" tabindex="-1">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h2 class="modal-title">Grab a glass and sit a spell</h2>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal">&times;</button>
-                    </div>
-                    <p id="modp">I am a country mama who is branching out into a passion I have wanted to pursue for many
-                        years. I grew up as computers were growing up, and love learning new things on and with
-                        them. As a mom of 6, I am <strong>highly organized</strong>, <strong>self-driven and motivated</strong>, and have very strong communication skills. I am currently enrolled in the BCS Commonwealth Coders program and working toward making WebDev my permanent career. I love learning new things, and take it upon myself to expand my knowledge on any topic that
-                        grabs my interest from horses to black holes. Thanks for stopping by!</p>
-                    </article>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div>
         <button type="button" class="btn btn-lg btn-outline-light" data-bs-toggle="modal" data-bs-target="#modal-4">Contact Me</button>
         <div class="modal" id="modal-4" tabindex="-1">
             <div class="modal-dialog modal-l">
@@ -88,7 +91,19 @@
                         <h2 class="modal-title">Contact me directly</h2>
                         <button type="button" class="btn-close" data-bs-dismiss="modal">&times;</button>
                     </div>
-                    <form method="post" action="#">
+                    <div class="text-center lead">
+                        <p>
+                            <a href="https://github.com/TonyaAlderman" >
+                            <i class="fab fa-github fa-3x p-3"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/tonya-alderman-7b463121a/">
+                            <i class="fab fa-linkedin fa-3x p-3"></i>
+                            </a>
+                            <a href=""></a>
+                        </p>
+                    </div>
+
+                    <!-- <form method="post" action="#">
                             <div id="input">
                                 <label for="name">Name</label>
                                 <input type="text" name="name" id="name" />
@@ -104,7 +119,7 @@
                         <ul class="actions">
                             <li><input type="submit" value="Send It To Me" class="primary" /></li>
                         </ul>
-                    </form>
+                    </form> -->
 
                 </div>
             </div>
